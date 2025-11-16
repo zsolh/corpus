@@ -1,5 +1,3 @@
-from fastapi import FastAPI
-
 from src.corpus import es_view
 
 app = es_view.app
